@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebebeb;
+  background: fixed
+    radial-gradient(350px 300px ellipse at 75% 50%, #dd580b, #ebebeb);
+    font-family: sans-serif;
+}
+
+.App {
+  background: fixed
+    radial-gradient(
+      150px 100px ellipse at 77% 45%,
+      #ddda0b,
+      rgb(255, 255, 255, 0)
+    );
+  height: 700px;
+}
+
+@import url(./_player.scss);
+@import url(./_station.scss);
