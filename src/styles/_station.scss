@@ -3,22 +3,32 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 340px;
+  margin-top: 200px;
 
   img {
     border-radius: 50%;
     width: 120px;
-    position: absolute;
+    position: fixed;
     top: 65%;
     right: 47%;
   }
   .station-name {
     font-size: 90px;
-    width: 1500px;
     margin-bottom: 15px;
+    align-self: flex-start;
+    padding-left: 200px;
   }
   .station-descr {
     align-self: flex-start;
     padding-left: 300px;
+  }
+  @media screen and (max-width: 768px) {
+    .station-name {
+      font-size: 60px;
+      padding-left: 100px;
+    }
+    .station-descr {
+      padding-left: 200px;
+    }
   }
 }

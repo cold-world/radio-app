@@ -2,13 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  button {
+    border: none;
+  }
 }
 
 body {
   background-color: #ebebeb;
   background: fixed
     radial-gradient(350px 300px ellipse at 75% 50%, #dd580b, #ebebeb);
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 .App {
@@ -21,5 +25,60 @@ body {
   height: 700px;
 }
 
+header {
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  justify-content: space-between;
+}
+.close-menu_btn {
+  margin-right: 630px;
+  padding: 4.5px 20px;
+}
+.app-name {
+  font-weight: 900;
+}
+
+.show-stations_btn {
+  margin-right: 600px;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #d5d3d3;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .show-stations_btn {
+    margin-right: 400px;
+  }
+  .close-menu_btn {
+    margin-right: 430px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .app-name {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .show-stations_btn {
+    margin-right: 200px;
+  }
+  .close-menu_btn {
+    margin-right: 230px;
+  }
+}
+
 @import url(./_player.scss);
 @import url(./_station.scss);
+@import url(./_stationList.scss);
+@import url(./_stationFromList.scss);
+@import url(./_selectTagMenu.scss);

@@ -1,0 +1,31 @@
+.stations-list {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 600px;
+  border-left: 1px solid rgb(63, 54, 54);
+  overflow: scroll;
+  backdrop-filter: blur(90px);
+  padding: 20px;
+  box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.8);
+  transition: ease-in-out 0.3s;
+  transform: translateX(1000px);
+}
+
+.stations-menu {
+  width: 100%;
+  min-height: 150px;
+}
+
+.stations-active {
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 1180px) {
+  .stations-list {
+    width: 400px;
+  }
+}
