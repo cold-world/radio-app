@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/radio-app/static/css/main.9eac60ca.css",
+    "main.js": "/radio-app/static/js/main.48a4e9ab.js",
+    "static/js/787.0176a66d.chunk.js": "/radio-app/static/js/787.0176a66d.chunk.js",
+    "index.html": "/radio-app/index.html",
+    "main.9eac60ca.css.map": "/radio-app/static/css/main.9eac60ca.css.map",
+    "main.48a4e9ab.js.map": "/radio-app/static/js/main.48a4e9ab.js.map",
+    "787.0176a66d.chunk.js.map": "/radio-app/static/js/787.0176a66d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9eac60ca.css",
+    "static/js/main.48a4e9ab.js"
+  ]
+}
