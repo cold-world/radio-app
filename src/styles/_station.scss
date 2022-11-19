@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 200px;
+  max-height: 300px;
 
   img {
     border-radius: 50%;
@@ -12,11 +13,13 @@
     margin-top: 150px;
   }
   .station-name {
-    font-size: 90px;
+    font-size: 80px;
     margin-bottom: 15px;
     align-self: flex-start;
     padding-left: 200px;
     padding-right: 50px;
+    word-wrap:break-word;
+    overflow-wrap: break-word;
   }
   .station-descr {
     align-self: flex-start;
@@ -24,17 +27,17 @@
     padding-right: 50px;
   }
   @media screen and (max-width: 768px) {
+    margin-top: 100px;
     .station-name {
-      font-size: 60px;
+      font-size: 30px;
       padding-left: 100px;
     }
     .station-descr {
       padding-left: 200px;
     }
-    
-      img {
-        display: none;
-      }
-    
+
+    img {
+      display: none;
+    }
   }
 }
