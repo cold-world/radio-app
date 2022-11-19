@@ -28,3 +28,12 @@
   gap: 20px;
   width: 200px;
 }
+
+@media screen and (max-width: 420px) {
+  .volume-control {
+    width: 330px;
+    input {
+      width: 310px;
+    }
+  }
+}

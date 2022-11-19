@@ -29,3 +29,9 @@
     width: 400px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .stations-list {
+    width: 300px;
+  }
+}

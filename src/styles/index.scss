@@ -5,6 +5,7 @@
   list-style: none;
   button {
     border: none;
+    background-color: transparent;
   }
 }
 
@@ -22,7 +23,6 @@ body {
       #ddda0b,
       rgb(255, 255, 255, 0)
     );
-  height: 700px;
 }
 
 header {
@@ -69,6 +69,9 @@ header {
 }
 
 @media screen and (max-width: 600px) {
+  header {
+    padding-left: 20px;
+  }
   .show-stations_btn {
     margin-right: 200px;
   }

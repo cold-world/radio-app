@@ -8,19 +8,20 @@
   img {
     border-radius: 50%;
     width: 120px;
-    position: fixed;
-    top: 65%;
-    right: 47%;
+    margin-bottom: 100px;
+    margin-top: 150px;
   }
   .station-name {
     font-size: 90px;
     margin-bottom: 15px;
     align-self: flex-start;
     padding-left: 200px;
+    padding-right: 50px;
   }
   .station-descr {
     align-self: flex-start;
     padding-left: 300px;
+    padding-right: 50px;
   }
   @media screen and (max-width: 768px) {
     .station-name {
@@ -30,5 +31,10 @@
     .station-descr {
       padding-left: 200px;
     }
+    
+      img {
+        display: none;
+      }
+    
   }
 }
