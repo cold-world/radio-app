@@ -11,7 +11,8 @@ function App() {
   const [currentStation, setCurrentStation] = useState({});
   const [toggleMenu, setToggleMenu] = useState(false);
   const setupApi = async (style = 'disco') => {
-    const api = new RadioBrowserApi('My Radio App');
+    const api = new RadioBrowserApi('Radio App');
+    api.setBaseUrl('https://de1.api.radio-browser.info');
 
     const stations = await api
       .searchStations({
