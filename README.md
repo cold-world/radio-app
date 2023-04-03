@@ -8,7 +8,7 @@ Main goal -> use API to get data and search by tag or name.
 * * *
 ### [Demo](https://cold-world.github.io/radio-app/)
 
-![Alt Text](https://i.ibb.co/HXq5sVz/2.gif)
+![Alt Text](https://i.ibb.co/KmWTkXq/2.gif)
 
 * * *
 
